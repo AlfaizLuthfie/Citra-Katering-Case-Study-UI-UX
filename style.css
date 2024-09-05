@@ -1,0 +1,58 @@
+:root{
+    --color-text: #333;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--color-text);
+}
+
+/* Header */
+.header{
+    margin-top: 5rem;
+}
+.describe-profil{
+    font-size: 0.7rem;
+}
+/* End Header */
+
+
+@media only screen and (min-width: 810px){
+    .container{
+        padding: 0 2rem;
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+    .header{
+        margin-top: 8rem;
+    }
+    .name-profil{
+        font-size: 1.5rem;
+    }
+    .describe-profil{
+        font-size: 1rem;
+    }
+    .studi-kasus img{
+        height: 300px;
+    }
+    .executive-summary .image{
+        text-align: center;
+    }
+    .executive-summary img{
+        width: 75%;
+    }
+    .wireframe .image{
+        text-align: center;
+    }
+    .wireframe img{
+        width: 75%;
+    }
+}
+@media only screen and (min-width: 1280px){
+    #navbar{
+        padding: 0;
+    }
+    .container{
+        padding: 0 8rem;
+        line-height:1.8rem;
+    }
+}
